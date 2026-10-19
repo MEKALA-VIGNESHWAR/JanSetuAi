@@ -1,0 +1,69 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: jansetu-db
+    environment:
+      POSTGRES_DB: jansetu
+      POSTGRES_USER: jansetu
+      POSTGRES_PASSWORD: jansetu_secret_2026
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/01-schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+      - ./database/02-seed-data.sql:/docker-entrypoint-initdb.d/02-seed-data.sql
+      - ./database/03-eligibility-rules.sql:/docker-entrypoint-initdb.d/03-eligibility-rules.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U jansetu"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Spring Boot Backend
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: jansetu-backend
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/jansetu
+      SPRING_DATASOURCE_USERNAME: jansetu
+      SPRING_DATASOURCE_PASSWORD: jansetu_secret_2026
+      JWT_SECRET: jansetu-ai-super-secret-key-2026-that-is-long-enough-for-hs512
+      SPRING_PROFILES_ACTIVE: docker
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  # React Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: jansetu-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+  # Python AI Service
+  ai-service:
+    build:
+      context: ./ai-service
+      dockerfile: Dockerfile
+    container_name: jansetu-ai
+    environment:
+      DATABASE_URL: postgresql://jansetu:jansetu_secret_2026@postgres:5432/jansetu
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

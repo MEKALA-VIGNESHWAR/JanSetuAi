@@ -1,0 +1,62 @@
+# ============================================================
+# JanSetuAI — Source Inventory
+# ============================================================
+# For each source: URL, department, data format, access method,
+# update frequency, and collection restrictions.
+
+sources:
+  myscheme:
+    name: "myScheme Portal"
+    url: "https://www.myscheme.gov.in"
+    api_base: "https://www.myscheme.gov.in/api"
+    department: "Ministry of Electronics & IT"
+    data_format: "JSON API"
+    access_method: "REST API"
+    update_frequency: "weekly"
+    restrictions: "Public API, rate-limit to 1 req/sec"
+    coverage: "Central + State schemes across all categories"
+    priority: 1  # highest priority
+    enabled: true
+
+  telangana_portal:
+    name: "Telangana Government Portal"
+    url: "https://www.telangana.gov.in"
+    department: "Government of Telangana"
+    data_format: "HTML"
+    access_method: "HTML scraping"
+    update_frequency: "monthly"
+    restrictions: "Respect robots.txt, 2 sec delay between requests"
+    coverage: "Telangana state schemes, department links"
+    priority: 2
+    enabled: true
+
+  data_gov_in:
+    name: "Open Government Data Platform India"
+    url: "https://www.data.gov.in"
+    api_base: "https://api.data.gov.in/resource"
+    department: "National Informatics Centre"
+    data_format: "CSV/JSON API"
+    access_method: "REST API (requires API key)"
+    update_frequency: "varies"
+    restrictions: "API key required, rate limits apply"
+    coverage: "Supplementary datasets for scheme information"
+    priority: 3
+    enabled: false  # enable after obtaining API key
+
+# Pipeline settings
+pipeline:
+  raw_data_dir: "data/raw"
+  staging_dir: "data/staging"
+  verified_dir: "data/verified"
+  rejected_dir: "data/rejected"
+  default_request_delay_sec: 1.5
+  max_retries: 3
+  request_timeout_sec: 30
+
+# Database settings (override via env vars)
+database:
+  host: "localhost"
+  port: 5432
+  name: "jansetu"
+  user: "jansetu"
+  password: "jansetu_secret_2026"

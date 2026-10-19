@@ -1,0 +1,899 @@
+[
+  {
+    "scheme_id": "8a075f2814dcfc74",
+    "official_scheme_code": null,
+    "slug": "rythu-bandhu",
+    "name": "Rythu Bandhu",
+    "short_description": null,
+    "description": "Investment support of ₹10,000 per acre per year for farmer land owners for crop production, paid in two installments.",
+    "opportunity_type": "SCHEME",
+    "category": "FARMER",
+    "sub_category": null,
+    "tags": [
+      "farmer",
+      "st",
+      "telangana"
+    ],
+    "government_level": "STATE",
+    "state": "Telangana",
+    "districts": [],
+    "scheme_status": "ACTIVE",
+    "target_groups": [],
+    "age_range": null,
+    "gender_restriction": null,
+    "benefits": "Investment support of ₹10,000 per acre per year for farmer land owners for crop production, paid in two installments.",
+    "benefit_type": "FINANCIAL",
+    "benefit_amount": "₹10,000/acre/year",
+    "eligibility_summary": "All farmer land owners in Telangana with pattadar passbook. No income ceiling.",
+    "eligibility_rules": [
+      {
+        "field": "annual_income",
+        "operator": "LTE",
+        "value": "10000",
+        "is_mandatory": true,
+        "description": "Family income must be below ₹10,000",
+        "source_evidence": "₹10,000"
+      },
+      {
+        "field": "is_farmer",
+        "operator": "EQ",
+        "value": "true",
+        "is_mandatory": true,
+        "description": "Must be a farmer",
+        "source_evidence": "All farmer land owners in Telangana with pattadar passbook. No income ceiling."
+      },
+      {
+        "field": "state",
+        "operator": "EQ",
+        "value": "Telangana",
+        "is_mandatory": true,
+        "description": "Must be from Telangana",
+        "source_evidence": "All farmer land owners in Telangana with pattadar passbook. No income ceiling."
+      }
+    ],
+    "exclusions": [],
+    "income_limit": {
+      "amount": 10000,
+      "currency": "INR",
+      "period": "annual",
+      "basis": "family",
+      "raw_text": "₹10,000"
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Pattadar Passbook",
+      "Bank Account (linked to Aadhaar)"
+    ],
+    "application_url": "https://rythubandhu.telangana.gov.in/",
+    "application_steps": [],
+    "application_mode": "ONLINE",
+    "application_deadline": null,
+    "department": "Agriculture Department, Telangana",
+    "official_source": "Agriculture Department, Telangana",
+    "source_url": "https://rythubandhu.telangana.gov.in/",
+    "source_document_url": null,
+    "source_evidence": [
+      {
+        "url": "https://rythubandhu.telangana.gov.in/",
+        "retrieved_at": "2026-10-13T06:04:13.222428",
+        "snapshot_path": null,
+        "relevant_text": null
+      }
+    ],
+    "verification_status": "PENDING",
+    "verified_by": null,
+    "last_verified": null,
+    "icon": null,
+    "created_at": "2026-10-13T06:04:13.222497Z",
+    "updated_at": "2026-10-13T06:04:13.222500Z"
+  },
+  {
+    "scheme_id": "815add3b72cc6ab7",
+    "official_scheme_code": null,
+    "slug": "rythu-bima",
+    "name": "Rythu Bima",
+    "short_description": null,
+    "description": "Free life insurance of ₹5 lakh for all farmer pattadars aged 18-59. Premium paid by state government.",
+    "opportunity_type": "SCHEME",
+    "category": "FARMER",
+    "sub_category": null,
+    "tags": [
+      "farmer",
+      "insurance",
+      "st",
+      "telangana"
+    ],
+    "government_level": "STATE",
+    "state": "Telangana",
+    "districts": [],
+    "scheme_status": "ACTIVE",
+    "target_groups": [],
+    "age_range": {
+      "min_age": 18,
+      "max_age": 59,
+      "exceptions": null
+    },
+    "gender_restriction": null,
+    "benefits": "Free life insurance of ₹5 lakh for all farmer pattadars aged 18-59. Premium paid by state government.",
+    "benefit_type": "INSURANCE",
+    "benefit_amount": "₹5,00,000 life insurance",
+    "eligibility_summary": "Farmer pattadars in Telangana aged 18-59 years.",
+    "eligibility_rules": [
+      {
+        "field": "age",
+        "operator": "GTE",
+        "value": "18",
+        "is_mandatory": true,
+        "description": "Must be 18 years or older",
+        "source_evidence": "Farmer pattadars in Telangana aged 18-59 years."
+      },
+      {
+        "field": "age",
+        "operator": "LTE",
+        "value": "59",
+        "is_mandatory": true,
+        "description": "Must be 59 years or younger",
+        "source_evidence": "Farmer pattadars in Telangana aged 18-59 years."
+      },
+      {
+        "field": "annual_income",
+        "operator": "LTE",
+        "value": "500000",
+        "is_mandatory": true,
+        "description": "Family income must be below ₹500,000",
+        "source_evidence": "₹5 lakh"
+      },
+      {
+        "field": "is_farmer",
+        "operator": "EQ",
+        "value": "true",
+        "is_mandatory": true,
+        "description": "Must be a farmer",
+        "source_evidence": "Farmer pattadars in Telangana aged 18-59 years."
+      },
+      {
+        "field": "state",
+        "operator": "EQ",
+        "value": "Telangana",
+        "is_mandatory": true,
+        "description": "Must be from Telangana",
+        "source_evidence": "Farmer pattadars in Telangana aged 18-59 years."
+      }
+    ],
+    "exclusions": [],
+    "income_limit": {
+      "amount": 500000,
+      "currency": "INR",
+      "period": "annual",
+      "basis": "family",
+      "raw_text": "₹5 lakh"
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Pattadar Passbook",
+      "Age Proof",
+      "Bank Account",
+      "Nominee Details"
+    ],
+    "application_url": "https://rythubandhu.telangana.gov.in/Default_RB1.aspx",
+    "application_steps": [],
+    "application_mode": "ONLINE",
+    "application_deadline": null,
+    "department": "Agriculture Department, Telangana",
+    "official_source": "Agriculture Department, Telangana",
+    "source_url": "https://rythubandhu.telangana.gov.in/Default_RB1.aspx",
+    "source_document_url": null,
+    "source_evidence": [
+      {
+        "url": "https://rythubandhu.telangana.gov.in/Default_RB1.aspx",
+        "retrieved_at": "2026-10-13T06:04:19.230721",
+        "snapshot_path": null,
+        "relevant_text": null
+      }
+    ],
+    "verification_status": "PENDING",
+    "verified_by": null,
+    "last_verified": null,
+    "icon": null,
+    "created_at": "2026-10-13T06:04:19.230774Z",
+    "updated_at": "2026-10-13T06:04:19.230776Z"
+  },
+  {
+    "scheme_id": "d2f7210eb6e32b9d",
+    "official_scheme_code": null,
+    "slug": "telangana-epass-scholarship",
+    "name": "Telangana ePASS Scholarship",
+    "short_description": null,
+    "description": "Post-matric scholarship and tuition fee reimbursement for SC/ST/BC/EBC/Minority students in Telangana.",
+    "opportunity_type": "SCHEME",
+    "category": "STUDENT",
+    "sub_category": null,
+    "tags": [
+      "minority",
+      "sc",
+      "scholarship",
+      "st",
+      "student",
+      "telangana"
+    ],
+    "government_level": "STATE",
+    "state": "Telangana",
+    "districts": [],
+    "scheme_status": "ACTIVE",
+    "target_groups": [],
+    "age_range": null,
+    "gender_restriction": null,
+    "benefits": "Post-matric scholarship and tuition fee reimbursement for SC/ST/BC/EBC/Minority students in Telangana.",
+    "benefit_type": "SCHOLARSHIP",
+    "benefit_amount": "",
+    "eligibility_summary": "SC/ST/BC/EBC/Minority students from Telangana. Family income below ₹2 lakh.",
+    "eligibility_rules": [
+      {
+        "field": "annual_income",
+        "operator": "LTE",
+        "value": "200000",
+        "is_mandatory": true,
+        "description": "Family income must be below ₹200,000",
+        "source_evidence": "income below ₹2 lakh"
+      },
+      {
+        "field": "social_category",
+        "operator": "IN",
+        "value": "SC,ST",
+        "is_mandatory": true,
+        "description": "Must be SC or ST",
+        "source_evidence": "SC/ST/BC/EBC/Minority students from Telangana. Family income below ₹2 lakh."
+      },
+      {
+        "field": "is_student",
+        "operator": "EQ",
+        "value": "true",
+        "is_mandatory": true,
+        "description": "Must be a student",
+        "source_evidence": "SC/ST/BC/EBC/Minority students from Telangana. Family income below ₹2 lakh."
+      },
+      {
+        "field": "state",
+        "operator": "EQ",
+        "value": "Telangana",
+        "is_mandatory": true,
+        "description": "Must be from Telangana",
+        "source_evidence": "SC/ST/BC/EBC/Minority students from Telangana. Family income below ₹2 lakh."
+      }
+    ],
+    "exclusions": [],
+    "income_limit": {
+      "amount": 200000,
+      "currency": "INR",
+      "period": "annual",
+      "basis": "family",
+      "raw_text": "income below ₹2 lakh"
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Caste Certificate",
+      "College Admission Letter",
+      "Previous Marksheets",
+      "Bank Account"
+    ],
+    "application_url": "https://telanganaepass.cgg.gov.in/",
+    "application_steps": [],
+    "application_mode": "ONLINE",
+    "application_deadline": null,
+    "department": "Backward Classes Welfare, Telangana",
+    "official_source": "Backward Classes Welfare, Telangana",
+    "source_url": "https://telanganaepass.cgg.gov.in/",
+    "source_document_url": null,
+    "source_evidence": [
+      {
+        "url": "https://telanganaepass.cgg.gov.in/",
+        "retrieved_at": "2026-10-13T06:04:21.497031",
+        "snapshot_path": "data\\raw\\telangana\\20261013_060421_index.html",
+        "relevant_text": null
+      }
+    ],
+    "verification_status": "PENDING",
+    "verified_by": null,
+    "last_verified": null,
+    "icon": null,
+    "created_at": "2026-10-13T06:04:21.497105Z",
+    "updated_at": "2026-10-13T06:04:21.497109Z"
+  },
+  {
+    "scheme_id": "1d8465435094838a",
+    "official_scheme_code": null,
+    "slug": "kalyana-lakshmi-shaadi-mubarak",
+    "name": "Kalyana Lakshmi / Shaadi Mubarak",
+    "short_description": null,
+    "description": "Financial assistance of ₹1,00,116 at the time of marriage for women from SC/ST/BC/Minority/EBC families.",
+    "opportunity_type": "SCHEME",
+    "category": "WOMEN",
+    "sub_category": null,
+    "tags": [
+      "minority",
+      "sc",
+      "st",
+      "telangana",
+      "women"
+    ],
+    "government_level": "STATE",
+    "state": "Telangana",
+    "districts": [],
+    "scheme_status": "ACTIVE",
+    "target_groups": [],
+    "age_range": {
+      "min_age": 18,
+      "max_age": null,
+      "exceptions": null
+    },
+    "gender_restriction": null,
+    "benefits": "Financial assistance of ₹1,00,116 at the time of marriage for women from SC/ST/BC/Minority/EBC families.",
+    "benefit_type": "FINANCIAL",
+    "benefit_amount": "₹1,00,116",
+    "eligibility_summary": "Woman aged 18+ from Telangana belonging to SC/ST/BC/Minority/EBC. Family income below ₹2 lakh.",
+    "eligibility_rules": [
+      {
+        "field": "age",
+        "operator": "GTE",
+        "value": "18",
+        "is_mandatory": true,
+        "description": "Must be 18 years or older",
+        "source_evidence": "Woman aged 18+ from Telangana belonging to SC/ST/BC/Minority/EBC. Family income below ₹2 lakh."
+      },
+      {
+        "field": "annual_income",
+        "operator": "LTE",
+        "value": "200000",
+        "is_mandatory": true,
+        "description": "Family income must be below ₹200,000",
+        "source_evidence": "income below ₹2 lakh"
+      },
+      {
+        "field": "social_category",
+        "operator": "IN",
+        "value": "SC,ST",
+        "is_mandatory": true,
+        "description": "Must be SC or ST",
+        "source_evidence": "Woman aged 18+ from Telangana belonging to SC/ST/BC/Minority/EBC. Family income below ₹2 lakh."
+      },
+      {
+        "field": "state",
+        "operator": "EQ",
+        "value": "Telangana",
+        "is_mandatory": true,
+        "description": "Must be from Telangana",
+        "source_evidence": "Woman aged 18+ from Telangana belonging to SC/ST/BC/Minority/EBC. Family income below ₹2 lakh."
+      }
+    ],
+    "exclusions": [],
+    "income_limit": {
+      "amount": 200000,
+      "currency": "INR",
+      "period": "annual",
+      "basis": "family",
+      "raw_text": "income below ₹2 lakh"
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Caste Certificate",
+      "Income Certificate",
+      "Age Proof",
+      "Bank Account",
+      "Marriage Invitation/Proof"
+    ],
+    "application_url": "https://kalyanamasthu.cgg.gov.in/",
+    "application_steps": [],
+    "application_mode": "ONLINE",
+    "application_deadline": null,
+    "department": "Women Development & Child Welfare, Telangana",
+    "official_source": "Women Development & Child Welfare, Telangana",
+    "source_url": "https://kalyanamasthu.cgg.gov.in/",
+    "source_document_url": null,
+    "source_evidence": [
+      {
+        "url": "https://kalyanamasthu.cgg.gov.in/",
+        "retrieved_at": "2026-10-13T06:04:27.260690",
+        "snapshot_path": null,
+        "relevant_text": null
+      }
+    ],
+    "verification_status": "PENDING",
+    "verified_by": null,
+    "last_verified": null,
+    "icon": null,
+    "created_at": "2026-10-13T06:04:27.260776Z",
+    "updated_at": "2026-10-13T06:04:27.260780Z"
+  },
+  {
+    "scheme_id": "45dc09177152f3be",
+    "official_scheme_code": null,
+    "slug": "aasara-pension-scheme",
+    "name": "Aasara Pension Scheme",
+    "short_description": null,
+    "description": "Monthly pension for old age (65+), widows, disabled persons, weavers, toddy tappers, single women, and beedi workers.",
+    "opportunity_type": "SCHEME",
+    "category": "SENIOR_CITIZEN",
+    "sub_category": null,
+    "tags": [
+      "pension",
+      "sc",
+      "senior_citizen",
+      "telangana",
+      "women"
+    ],
+    "government_level": "STATE",
+    "state": "Telangana",
+    "districts": [],
+    "scheme_status": "ACTIVE",
+    "target_groups": [],
+    "age_range": {
+      "min_age": 65,
+      "max_age": null,
+      "exceptions": null
+    },
+    "gender_restriction": null,
+    "benefits": "Monthly pension for old age (65+), widows, disabled persons, weavers, toddy tappers, single women, and beedi workers.",
+    "benefit_type": "FINANCIAL",
+    "benefit_amount": "₹2,016/month",
+    "eligibility_summary": "Telangana resident meeting category-specific criteria: 65+ for old age pension, widows, PwD (40%+), etc.",
+    "eligibility_rules": [
+      {
+        "field": "age",
+        "operator": "GTE",
+        "value": "65",
+        "is_mandatory": true,
+        "description": "Must be 65 years or older",
+        "source_evidence": "Telangana resident meeting category-specific criteria: 65+ for old age pension, widows, PwD (40%+), etc."
+      },
+      {
+        "field": "state",
+        "operator": "EQ",
+        "value": "Telangana",
+        "is_mandatory": true,
+        "description": "Must be from Telangana",
+        "source_evidence": "Telangana resident meeting category-specific criteria: 65+ for old age pension, widows, PwD (40%+), etc."
+      }
+    ],
+    "exclusions": [],
+    "income_limit": null,
+    "required_documents": [
+      "Aadhaar Card",
+      "Age Proof",
+      "Residence Certificate",
+      "Category-specific Certificate",
+      "Bank Account"
+    ],
+    "application_url": "",
+    "application_steps": [],
+    "application_mode": "UNKNOWN",
+    "application_deadline": null,
+    "department": "Panchayat Raj & Rural Development, Telangana",
+    "official_source": "Panchayat Raj & Rural Development, Telangana",
+    "source_url": "https://www.telangana.gov.in/",
+    "source_document_url": null,
+    "source_evidence": [
+      {
+        "url": "https://www.telangana.gov.in/",
+        "retrieved_at": "2026-10-13T06:04:29.561395",
+        "snapshot_path": "data\\raw\\telangana\\20261013_060429_index.html",
+        "relevant_text": null
+      }
+    ],
+    "verification_status": "PENDING",
+    "verified_by": null,
+    "last_verified": null,
+    "icon": null,
+    "created_at": "2026-10-13T06:04:29.561522Z",
+    "updated_at": "2026-10-13T06:04:29.561528Z"
+  },
+  {
+    "scheme_id": "762073b9fc54434c",
+    "official_scheme_code": null,
+    "slug": "dalit-bandhu",
+    "name": "Dalit Bandhu",
+    "short_description": null,
+    "description": "Direct benefit of ₹10 lakh per SC family for setting up enterprises. 100% grant, no repayment required.",
+    "opportunity_type": "SCHEME",
+    "category": "GENERAL",
+    "sub_category": null,
+    "tags": [
+      "general",
+      "sc",
+      "telangana"
+    ],
+    "government_level": "STATE",
+    "state": "Telangana",
+    "districts": [],
+    "scheme_status": "ACTIVE",
+    "target_groups": [],
+    "age_range": null,
+    "gender_restriction": null,
+    "benefits": "Direct benefit of ₹10 lakh per SC family for setting up enterprises. 100% grant, no repayment required.",
+    "benefit_type": "FINANCIAL",
+    "benefit_amount": "₹10,00,000",
+    "eligibility_summary": "Scheduled Caste (Dalit) families in Telangana, selected constituency-wise.",
+    "eligibility_rules": [
+      {
+        "field": "annual_income",
+        "operator": "LTE",
+        "value": "1000000",
+        "is_mandatory": true,
+        "description": "Family income must be below ₹1,000,000",
+        "source_evidence": "₹10 lakh"
+      },
+      {
+        "field": "social_category",
+        "operator": "EQ",
+        "value": "SC",
+        "is_mandatory": true,
+        "description": "Must be Scheduled Caste",
+        "source_evidence": "Scheduled Caste (Dalit) families in Telangana, selected constituency-wise."
+      },
+      {
+        "field": "state",
+        "operator": "EQ",
+        "value": "Telangana",
+        "is_mandatory": true,
+        "description": "Must be from Telangana",
+        "source_evidence": "Scheduled Caste (Dalit) families in Telangana, selected constituency-wise."
+      }
+    ],
+    "exclusions": [],
+    "income_limit": {
+      "amount": 1000000,
+      "currency": "INR",
+      "period": "annual",
+      "basis": "family",
+      "raw_text": "₹10 lakh"
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Caste Certificate (SC)",
+      "Bank Account",
+      "Residence Proof",
+      "Business Plan"
+    ],
+    "application_url": "https://dalitbandhu.telangana.gov.in/",
+    "application_steps": [],
+    "application_mode": "ONLINE",
+    "application_deadline": null,
+    "department": "SC Development Department, Telangana",
+    "official_source": "SC Development Department, Telangana",
+    "source_url": "https://dalitbandhu.telangana.gov.in/",
+    "source_document_url": null,
+    "source_evidence": [
+      {
+        "url": "https://dalitbandhu.telangana.gov.in/",
+        "retrieved_at": "2026-10-13T06:05:38.412543",
+        "snapshot_path": null,
+        "relevant_text": null
+      }
+    ],
+    "verification_status": "PENDING",
+    "verified_by": null,
+    "last_verified": null,
+    "icon": null,
+    "created_at": "2026-10-13T06:05:38.412633Z",
+    "updated_at": "2026-10-13T06:05:38.412637Z"
+  },
+  {
+    "scheme_id": "4159a272942f1c07",
+    "official_scheme_code": null,
+    "slug": "t-hub-startup-incubation",
+    "name": "T-Hub Startup Incubation",
+    "short_description": null,
+    "description": "Startup incubation, mentoring, investor connect, and workspace for technology startups in Telangana.",
+    "opportunity_type": "SCHEME",
+    "category": "ENTREPRENEUR",
+    "sub_category": null,
+    "tags": [
+      "entrepreneur",
+      "st",
+      "startup",
+      "telangana"
+    ],
+    "government_level": "STATE",
+    "state": "Telangana",
+    "districts": [],
+    "scheme_status": "ACTIVE",
+    "target_groups": [],
+    "age_range": null,
+    "gender_restriction": null,
+    "benefits": "Startup incubation, mentoring, investor connect, and workspace for technology startups in Telangana.",
+    "benefit_type": "SERVICE",
+    "benefit_amount": "",
+    "eligibility_summary": "Registered startup/entrepreneur. Preferably based in Hyderabad/Telangana.",
+    "eligibility_rules": [
+      {
+        "field": "state",
+        "operator": "EQ",
+        "value": "Telangana",
+        "is_mandatory": true,
+        "description": "Must be from Telangana",
+        "source_evidence": "Registered startup/entrepreneur. Preferably based in Hyderabad/Telangana."
+      }
+    ],
+    "exclusions": [],
+    "income_limit": null,
+    "required_documents": [
+      "Company Registration",
+      "Business Plan",
+      "Founder Aadhaar/PAN",
+      "Bank Account"
+    ],
+    "application_url": "https://t-hub.co/programs/",
+    "application_steps": [],
+    "application_mode": "ONLINE",
+    "application_deadline": null,
+    "department": "IT & Industries Department, Telangana",
+    "official_source": "IT & Industries Department, Telangana",
+    "source_url": "https://t-hub.co/",
+    "source_document_url": null,
+    "source_evidence": [
+      {
+        "url": "https://t-hub.co/",
+        "retrieved_at": "2026-10-13T06:05:39.346926",
+        "snapshot_path": "data\\raw\\telangana\\20261013_060539_index.html",
+        "relevant_text": null
+      }
+    ],
+    "verification_status": "PENDING",
+    "verified_by": null,
+    "last_verified": null,
+    "icon": null,
+    "created_at": "2026-10-13T06:05:39.347003Z",
+    "updated_at": "2026-10-13T06:05:39.347006Z"
+  },
+  {
+    "scheme_id": "702bf22632a808a7",
+    "official_scheme_code": null,
+    "slug": "we-hub-women-entrepreneurship",
+    "name": "WE Hub — Women Entrepreneurship",
+    "short_description": null,
+    "description": "India's first state-led incubator for women entrepreneurs. Provides mentoring, funding connect, and workspace.",
+    "opportunity_type": "SCHEME",
+    "category": "WOMEN",
+    "sub_category": null,
+    "tags": [
+      "entrepreneur",
+      "st",
+      "telangana",
+      "women"
+    ],
+    "government_level": "STATE",
+    "state": "Telangana",
+    "districts": [],
+    "scheme_status": "ACTIVE",
+    "target_groups": [],
+    "age_range": null,
+    "gender_restriction": null,
+    "benefits": "India's first state-led incubator for women entrepreneurs. Provides mentoring, funding connect, and workspace.",
+    "benefit_type": "SERVICE",
+    "benefit_amount": "",
+    "eligibility_summary": "Women entrepreneurs and women-led startups. Preferably from Telangana.",
+    "eligibility_rules": [
+      {
+        "field": "state",
+        "operator": "EQ",
+        "value": "Telangana",
+        "is_mandatory": true,
+        "description": "Must be from Telangana",
+        "source_evidence": "Women entrepreneurs and women-led startups. Preferably from Telangana."
+      }
+    ],
+    "exclusions": [],
+    "income_limit": null,
+    "required_documents": [
+      "Aadhaar Card",
+      "Company Registration",
+      "Business Plan"
+    ],
+    "application_url": "https://wehub.telangana.gov.in/",
+    "application_steps": [],
+    "application_mode": "ONLINE",
+    "application_deadline": null,
+    "department": "WE Hub, Government of Telangana",
+    "official_source": "WE Hub, Government of Telangana",
+    "source_url": "https://wehub.telangana.gov.in/",
+    "source_document_url": null,
+    "source_evidence": [
+      {
+        "url": "https://wehub.telangana.gov.in/",
+        "retrieved_at": "2026-10-13T06:05:41.109968",
+        "snapshot_path": "data\\raw\\telangana\\20261013_060541_index.html",
+        "relevant_text": null
+      }
+    ],
+    "verification_status": "PENDING",
+    "verified_by": null,
+    "last_verified": null,
+    "icon": null,
+    "created_at": "2026-10-13T06:05:41.110038Z",
+    "updated_at": "2026-10-13T06:05:41.110041Z"
+  },
+  {
+    "scheme_id": "9f770981a7b53baa",
+    "official_scheme_code": null,
+    "slug": "telangana-skill-development-programme",
+    "name": "Telangana Skill Development Programme",
+    "short_description": null,
+    "description": "Free skill training programs across various sectors for youth in Telangana, with placement assistance.",
+    "opportunity_type": "SCHEME",
+    "category": "JOB_SEEKER",
+    "sub_category": null,
+    "tags": [
+      "job_seeker",
+      "skill",
+      "st",
+      "telangana",
+      "training"
+    ],
+    "government_level": "STATE",
+    "state": "Telangana",
+    "districts": [],
+    "scheme_status": "ACTIVE",
+    "target_groups": [],
+    "age_range": {
+      "min_age": 15,
+      "max_age": 35,
+      "exceptions": null
+    },
+    "gender_restriction": null,
+    "benefits": "Free skill training programs across various sectors for youth in Telangana, with placement assistance.",
+    "benefit_type": "TRAINING",
+    "benefit_amount": "",
+    "eligibility_summary": "Youth aged 15-35 from Telangana. No minimum education for many courses.",
+    "eligibility_rules": [
+      {
+        "field": "age",
+        "operator": "GTE",
+        "value": "15",
+        "is_mandatory": true,
+        "description": "Must be 15 years or older",
+        "source_evidence": "Youth aged 15-35 from Telangana. No minimum education for many courses."
+      },
+      {
+        "field": "age",
+        "operator": "LTE",
+        "value": "35",
+        "is_mandatory": true,
+        "description": "Must be 35 years or younger",
+        "source_evidence": "Youth aged 15-35 from Telangana. No minimum education for many courses."
+      },
+      {
+        "field": "state",
+        "operator": "EQ",
+        "value": "Telangana",
+        "is_mandatory": true,
+        "description": "Must be from Telangana",
+        "source_evidence": "Youth aged 15-35 from Telangana. No minimum education for many courses."
+      }
+    ],
+    "exclusions": [],
+    "income_limit": null,
+    "required_documents": [
+      "Aadhaar Card",
+      "Age Proof",
+      "Residence Proof",
+      "Education Certificates",
+      "Bank Account"
+    ],
+    "application_url": "https://tsdcl.telangana.gov.in/",
+    "application_steps": [],
+    "application_mode": "ONLINE",
+    "application_deadline": null,
+    "department": "Labour, Employment & Training Department, Telangana",
+    "official_source": "Labour, Employment & Training Department, Telangana",
+    "source_url": "https://tsdcl.telangana.gov.in/",
+    "source_document_url": null,
+    "source_evidence": [
+      {
+        "url": "https://tsdcl.telangana.gov.in/",
+        "retrieved_at": "2026-10-13T06:05:46.431204",
+        "snapshot_path": null,
+        "relevant_text": null
+      }
+    ],
+    "verification_status": "PENDING",
+    "verified_by": null,
+    "last_verified": null,
+    "icon": null,
+    "created_at": "2026-10-13T06:05:46.431298Z",
+    "updated_at": "2026-10-13T06:05:46.431303Z"
+  },
+  {
+    "scheme_id": "c59c6aabc02a26ef",
+    "official_scheme_code": null,
+    "slug": "cm-overseas-scholarship-for-bcebcminorities",
+    "name": "CM Overseas Scholarship for BC/EBC/Minorities",
+    "short_description": null,
+    "description": "Full scholarship for BC/EBC/Minority students from Telangana to pursue postgraduate studies abroad.",
+    "opportunity_type": "SCHEME",
+    "category": "STUDENT",
+    "sub_category": null,
+    "tags": [
+      "minority",
+      "sc",
+      "scholarship",
+      "st",
+      "student",
+      "telangana"
+    ],
+    "government_level": "STATE",
+    "state": "Telangana",
+    "districts": [],
+    "scheme_status": "ACTIVE",
+    "target_groups": [],
+    "age_range": null,
+    "gender_restriction": null,
+    "benefits": "Full scholarship for BC/EBC/Minority students from Telangana to pursue postgraduate studies abroad.",
+    "benefit_type": "SCHOLARSHIP",
+    "benefit_amount": "",
+    "eligibility_summary": "BC/EBC/Minority student from Telangana. Family income below ₹5 lakh. Admission in foreign university.",
+    "eligibility_rules": [
+      {
+        "field": "annual_income",
+        "operator": "LTE",
+        "value": "500000",
+        "is_mandatory": true,
+        "description": "Family income must be below ₹500,000",
+        "source_evidence": "income below ₹5 lakh"
+      },
+      {
+        "field": "is_student",
+        "operator": "EQ",
+        "value": "true",
+        "is_mandatory": true,
+        "description": "Must be a student",
+        "source_evidence": "BC/EBC/Minority student from Telangana. Family income below ₹5 lakh. Admission in foreign university."
+      },
+      {
+        "field": "state",
+        "operator": "EQ",
+        "value": "Telangana",
+        "is_mandatory": true,
+        "description": "Must be from Telangana",
+        "source_evidence": "BC/EBC/Minority student from Telangana. Family income below ₹5 lakh. Admission in foreign university."
+      }
+    ],
+    "exclusions": [],
+    "income_limit": {
+      "amount": 500000,
+      "currency": "INR",
+      "period": "annual",
+      "basis": "family",
+      "raw_text": "income below ₹5 lakh"
+    },
+    "required_documents": [
+      "Aadhaar Card",
+      "Caste Certificate",
+      "Income Certificate",
+      "Admission Letter",
+      "Passport",
+      "Academic Transcripts"
+    ],
+    "application_url": "https://overseas.tsobmms.com/",
+    "application_steps": [],
+    "application_mode": "ONLINE",
+    "application_deadline": null,
+    "department": "Backward Classes Welfare, Telangana",
+    "official_source": "Backward Classes Welfare, Telangana",
+    "source_url": "https://overseas.tsobmms.com/",
+    "source_document_url": null,
+    "source_evidence": [
+      {
+        "url": "https://overseas.tsobmms.com/",
+        "retrieved_at": "2026-10-13T06:05:52.437508",
+        "snapshot_path": null,
+        "relevant_text": null
+      }
+    ],
+    "verification_status": "PENDING",
+    "verified_by": null,
+    "last_verified": null,
+    "icon": null,
+    "created_at": "2026-10-13T06:05:52.437598Z",
+    "updated_at": "2026-10-13T06:05:52.437602Z"
+  }
+]
